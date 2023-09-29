@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding-left: 0px;
+    box-sizing: border-box;
+}
+.All{
+    background-color:rgb(215, 247, 247);
+    display: flex;
+
+}
+.Back{
+display: flex;
+margin-left: 300px;
+background-color: lightgray;
+border-radius: 15px;
+margin-top: 15px;
+margin-bottom: 20px;
+height: 630px;
+width: 900px;
+}
+label{
+    font-size:large;
+
+}
+input{
+    border-radius: 5px;
+    height: 40px;
+    width: 200px;
+    margin-right: 10px;
+}
+.alpha{
+    margin-top: 15px;
+}
+.alpha, .Beta, .Gamma, .Delta, .Eee{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 20px;
+    width: 150px;  
+}
+.pix1{
+    height: 570px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+   }
+.Right{
+    margin-top: 30px;
+    margin-left: 20px;   
+}
+.Eee{
+margin-top: 15px;
+}
+button{
+    border-radius: 15px;
+    width: 150px;
+    height: 50px;
+    margin-left: 140px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    background-color: darkcyan;
+
+}
